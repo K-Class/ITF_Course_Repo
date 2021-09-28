@@ -1,0 +1,71 @@
+    1  mkdir git-lesson3
+    2  cd git-lesson3
+    3  mkdir tekrar
+    4  cd tekrar
+    5  git init
+    6  touch yeni
+    7  git status
+    8  git add yeni
+    9  git status
+   10  git commit -m "yeni dosyası oluşturuldu."
+   11  git status
+   12  git log
+   13  echo "ilk satır eklendi." > yeni
+   14  git status
+   15  git commit -am "yeni ilk satır eklendi."
+   16  git status
+   17  git log
+   18  git checkout 77c3971
+   19  git log
+   20  git checkout master
+   21  git log
+   22  git branch
+   23  git branch yeni_dal
+   24  git branch
+   25  git branch
+   26  git branch -r
+   27  git branch -a
+   28  git checkout yeni_dal
+   29  git branch
+   30  git checkout -b yeni_dal2
+   31  git branch
+   32  git checkout master
+   33  git branch
+   34  git branch -d yeni_dal2
+   35  git branch
+   36  git checkout yeni_dal
+   37  git branch
+   38  git status
+   39  git commit -am "üç nokta konuldu."
+   40  git log
+   41  git checkout master
+   42  git merge yeni_dal
+   43  git checkout yeni_dal
+   44  git commit -am "yenidal versiyonu."
+   45  git checkout master
+   46  git commit -am "master version."
+   47  git merge yeni_dal
+   48  git add .
+   49  git commit -m "conflict giderildi."
+   50  touch newfile
+   51  git status
+   52  git commit -am "newfile oluşturuldu."
+   53  git status
+   54  git add .
+   55  git commit -m "newfile oluşturuldu."
+   56  git branch
+   57  git branch new_branch
+   58  echo "merhaba dünya" > newfile
+   59  git commit -am "satır eklendi."
+   60  git checkout new_branch
+   61  echo "hello world" > newfile
+   62  git status
+   63  git commit -am "yeni satır eklendi new_branch"
+   64  git checkout master
+   65  git merge new_branch
+   66  vi newfile
+   67  git status
+   68  git log
+   69  history history.txt
+   70  git help
+   71  history > history.txt
