@@ -1,0 +1,500 @@
+    2  ls
+    3  composer create-project laravel/laravel example-app
+    4  cd example-app
+    5  code .
+    6  pwd
+    7  ls
+    8  git --version
+    9  rmd ?
+   10  git --version
+   11  cd desktop
+   12  ls
+   13  rmd New Text Document.txt
+   14  git config -- global user.name "kucukbal"
+   15  cd..
+   16  git init
+   17  git status
+   18  clear
+   19  git add .
+   20  git status
+   21  git commit -m "projedeki ilk commit"
+   22  git status
+   23  git log
+   24  git amend "projedeki ikinci commit"
+   25  git commit --amend "projede ilk mesaj degisimi"
+   26  git commit --amend
+   27  git config --global user.name "kucukbal"
+   28  git config --global user.mail "kucukbal@gmail.com"
+   29  git config --global core.editor "vim"
+   30  git config --list
+   31  clear
+   32  pwd
+   33  cd
+   34  pwd
+   35  cd desktop
+   36  cd git_try
+   37  cd
+   38  cd Desktop
+   39  cd git_try
+   40  mkdir work1
+   41  cd work1
+   42  git init
+   43  clear
+   44  git status
+   45  ls
+   46  git help
+   47  clear
+   48  git status
+   49  git status
+   50  git add new_file.txt
+   51  git status
+   52  touch file1.txt
+   53  git status
+   54  git add file1.txt
+   55  git status
+   56  clear
+   57  ls
+   58  git status
+   59  git status
+   60  git add new_file.txt
+   61  git status
+   62  clear
+   63  touch file2.txt
+   64  touch file3.txt
+   65  git status
+   66  git add .
+   67  git status
+   68  git commit -m "first commit"
+   69  git config status
+   70  git status
+   71  git help
+   72  git --config status
+   73  git config --list
+   74  git commit -m "fist"
+   75  git config --global user.mail "kucukbal@gmail.com"
+   76  git config --global user.name "kucukbal"
+   77  git config --list
+   78  git commit -m "fist"
+   79  git config --global user.name "kucukbal"
+   80  git config --global user.mail "kucukbal@gmail.com"
+   81  git config --list
+   82  git commit -m "fist"
+   83  git config --global user.name "kucukbals"
+   84  git config --list
+   85  git commit -m "fist"
+   86  git status
+   87  git commit -m  "fist"
+   88   git config --global user.email "you@example.com"
+   89    git config --global user.name "Your Name"
+   90  git config --list
+   91    git config --global user.name "kucukbal"
+   92   git config --global user.email "kucukbal@gmail.com"
+   93  git commit -m  "fist"
+   94  git log
+   95  git status
+   96  git status
+   97  git commit -m  "second"
+   98    git add .
+   99  git commit -m  "second"
+  100  git log
+  101  git checkout eb18f
+  102  git log
+  103  git status
+  104  git add .
+  105  clear
+  106  git status
+  107  git commit -m "dosyalar silindi"
+  108  log
+  109  git log
+  110  git status
+  111  git checkout eb18f066
+  112  git status
+  113  git commit -am "ikinci satir eklendi file 3"
+  114  git status
+  115  git log
+  116  git checkout master
+  117  git status
+  118  gıt status
+  119  git status
+  120  git log
+  121  explorer.exe .
+  122  composer
+  123  nodejs
+  124  node -v
+  125  node -v
+  126  nmp -v
+  127  node -v
+  128  pwd
+  129  cd Desktop/
+  130  cd git_try/
+  131  ls
+  132  cd work1/
+  133  ls
+  134  git status
+  135  git status
+  136  git add
+  137  git add .
+  138  git status
+  139  git commit .
+  140  cd Desktop/git_try/work1/
+  141  git status
+  142  git log
+  143  cd ..
+  144  mkdir my-second-project
+  145  cd my-second-project/
+  146  git init
+  147  touch file1.txt
+  148  ls
+  149  echo "mustafa nin repo" > file1.txt 
+  150  cat file1.txt 
+  151  clear
+  152  git add file1.txt 
+  153  git status
+  154  git rm --cached file1.txt 
+  155  git status
+  156  git add .
+  157  git commit -m "first commitim"
+  158  touch file2.txt
+  159  echo "merhaba dunya" > file2.txt
+  160  git add file2.txt 
+  161  rm file1.txt
+  162  mv file2.txt file3.txt
+  163  ls
+  164  git status
+  165  git add file3.txt
+  166  git status
+  167  git commit -m "file 3 commitid"
+  168  clear
+  169  git commit --amend
+  170  git log
+  171  git checkout  847c00
+  172  ls
+  173  clear
+  174  git log
+  175  git add .
+  176  ls
+  177  git commit
+  178  git log
+  179  ls
+  180  git checkout master
+  181  ls
+  182  git log
+  183  git checkout  847c00ea20
+  184  ls
+  185  git branch
+  186  git checkout master
+  187  cd..
+  188  cd ..
+  189  mkdir git-branch
+  190  cd git-branch/
+  191  clear
+  192  git init
+  193  git branch
+  194  touch nf1.txt
+  195  git add .
+  196  git commit -m "first"
+  197  ls
+  198  bit branch
+  199  git branch
+  200  git branch "calisma ortami"
+  201  git branch calisma_ortami
+  202  git branch
+  203  git checkout calisma_ortami 
+  204  git branch
+  205  clear
+  206  git branch 
+  207  git branch -b dev_ortami
+  208  git branch 
+  209  git branch nb_2
+  210  git branch 
+  211  git checkout -b nb_3
+  212  git branch
+  213  git branch master
+  214  git checkout master
+  215  git branch -d nb_3
+  216  git branch
+  217  git branch -d nb_2
+  218  git branch
+  219  cd ..
+  220  mkdir git-conflict
+  221  cd git-conflict/
+  222  git init
+  223  touch mf1.txt
+  224  touch mf2.txt
+  225  git branch nb
+  226  git add .
+  227  git commit -m "first"
+  228  ls
+  229  git branch nb
+  230  git branch
+  231  echo "hello" > mf2.txt
+  232  git commit -am "degisim"
+  233  git status
+  234  git checkout nb
+  235  l
+  236  ls
+  237  cat mf2.txt
+  238  echo "merhaba" > mf2.txt
+  239  cat mf2.txt
+  240  git commit -am "branch degisiklik"
+  241  git checkout master
+  242  cat mf2.txt
+  243  git merge nb
+  244  vi mf2.txt
+  245  cd des
+  246  pwd
+  247  cd Desktop/
+  248  mkdir my-github
+  249  cd my-github/
+  250  mkdir git-workshop
+  251  cd git-workshop/
+  252  git config --list
+  253  git init
+  254  ls -a
+  255  git status
+  256  git branch -m main
+  257  git status
+  258  touch file1.txt
+  259  git status
+  260  git add file1.txt 
+  261  git status
+  262  git commit -m "first commit"
+  263  vim file2.txt
+  264  ls
+  265  git status
+  266  git add file2.txt 
+  267  git status
+  268  git restore -- staged file2.txt
+  269  git restore --staged file2.txt
+  270  git status
+  271  clear
+  272  git status
+  273  git add file2.txt 
+  274  git status
+  275  git rm --cached file2.txt
+  276  git status
+  277  git add .
+  278  git commit -m "second commit"
+  279  git log
+  280  git checkout a6c233
+  281  git log
+  282  git checkout main
+  283  git branch
+  284  git checkout a6c233
+  285  git branch
+  286  git checkout main
+  287  git log
+  288  touch test.txt
+  289  git branch new-feature-1
+  290  git branch
+  291  git branch -r
+  292  git branch -a
+  293  git checkout new-feature-1 
+  294  ls
+  295  git status
+  296  vim test.txt 
+  297  git add .
+  298  git status
+  299  git commit -m "added first line"
+  300  git status
+  301  vim test.txt 
+  302  git commit -am "added second line"
+  303  cat test.txt 
+  304  git checkout main 
+  305  cat test.txt
+  306  ls
+  307  git status
+  308  touch test.txt
+  309  ls
+  310  git staus
+  311  git status
+  312  git commit -am "third commit"
+  313  git status
+  314  git commit add .
+  315  git add .
+  316  git status
+  317  git commit -m "third commit"
+  318  git status
+  319  cat test.txt
+  320  git merge new-feature-1 
+  321  cat test.txt
+  322  git log
+  323  git checkout -b new-feature-2
+  324  vim test2.txt
+  325  git add .
+  326  git commit -m "created test2.txt"
+  327  git status
+  328  git checkout main
+  329  touch test3.txt
+  330  git add .
+  331  git commit -m "created test3.txt"
+  332  ls
+  333  vim test2.txt
+  334  git add .
+  335  git commit -m "created test2.txt"
+  336  git merge new-feature-2
+  337  vim test2.txt 
+  338  git status
+  339  git commit -m "conflict fixed"
+  340  vim test2.txt
+  341  git add .
+  342  git commit -m "conflict giderildi"
+  343  cat test2.txt
+  344  cd Desktop/
+  345  mkdir my-github2
+  346  cd my-github2
+  347  mkdir git-workshop
+  348  cd git-workshop/
+  349  git config --list
+  350  clear
+  351  git init
+  352  ls -al
+  353  git status
+  354  git brnach -m main
+  355  git branch -m main
+  356  git status
+  357  clear
+  358  touch file1.txt
+  359  git status
+  360  git add file1.txt 
+  361  git status
+  362  git commit -m "first commit"
+  363  git status
+  364  clear
+  365  vim file2.txt
+  366  ls
+  367  git status
+  368  git add file2.txt 
+  369  git status
+  370  git restore --staged file2.txt
+  371  git status
+  372  clear
+  373  git add file2.txt 
+  374  git status
+  375  git rm --cached file2.txt
+  376  git status
+  377  git add .
+  378  git status
+  379  git commit -m "second commit"
+  380  git log
+  381  clear
+  382  git log
+  383  git checkout f63f57
+  384  git log
+  385  git checkout main
+  386  git log
+  387  clear
+  388  git log
+  389  git checkout f63f575b3d428a52f33c664505058f74c49554cc
+  390  git log
+  391  clear
+  392  git checkout 3b8fcc040e5bd05b5c1c340dfae4b4975fb9e063
+  393  git log
+  394  git checkout main
+  395  git log
+  396  git checkout f63f57
+  397  git log
+  398  get branch
+  399  git branch
+  400  clear
+  401  git checkout main
+  402  git log
+  403  git status
+  404  touch test.txt
+  405  git status
+  406  ls -al
+  407  git add test.txt 
+  408  git commit -m "third commit"
+  409  git log
+  410  cat test.txt 
+  411  clear 
+  412  git branch new-feature-1
+  413  get branch
+  414  git branch
+  415  git checkout new-feature-1 
+  416  ls 
+  417  git status
+  418  vim test.txt 
+  419  vim test.txt 
+  420  cat test.txt 
+  421  git status
+  422  clear
+  423  ls
+  424  git checkout main
+  425  ls
+  426  cat test.txt 
+  427  vim test.txt 
+  428  touch test2.txt
+  429  ls
+  430  git checkout new-feature-1 
+  431  ls
+  432  touch test3.txt
+  433  ls
+  434  clear
+  435  git status
+  436  echo "test3 ilk satir branch new feature 1" > test3.txt
+  437  cat test3.txt
+  438  git status
+  439  git checkout main
+  440  cat test3.txt
+  441  git checkout new-feature-1 
+  442  git add .
+  443  git status
+  444  git commit -m "new feature 1 first commit"
+  445  git log
+  446  git checkout main
+  447  cat test3.txt
+  448  ls
+  449  git merge new-feature-1 
+  450  ls -al
+  451  cat test3.txt
+  452  git checkout -b new-feature-2
+  453  vim test4.txt
+  454  git add .
+  455  git commit -m "nf-2 first commit"
+  456  git status
+  457  ls
+  458  git checkout main
+  459  ls 
+  460  touch test5.txt
+  461  git add .
+  462  git commit -m "test5.txt created"
+  463  ls
+  464  vim test3.txt 
+  465  git commit -am "test3.txt degisti"
+  466  git status
+  467  git checkout new-feature-2
+  468  git status
+  469  vim test3.txt
+  470  git status
+  471  git commit -am "test3.txt degisti nf-2"
+  472  git status
+  473  git checkout main
+  474  git merge new-feature-2
+  475  ls
+  476  cat test3.txt
+  477  vim test3.txt 
+  478  git commit -am "test3.txt degisti main"
+  479  git checkout new-feature-2
+  480  vim test3.txt
+  481  git commit -am "test3.txt degisti nf-2"
+  482  cat test3.txt
+  483  git checkout main
+  484  cat test3.txt
+  485  git merge new-feature-2
+  486  vim test3.txt
+  487  git add .
+  488  git commit -m "conflict cozuldu"
+  489  cat test3.txt
+  490  git checkout new-feature-2
+  491  cat test3.txt
+  492  git log
+  493  git checkout main
+  494  git branch -d new-feature-1 new-feature-2
+  495  git branch
+  496  history history.txt
+  497  history
+  498  history history.txt
+  499  history help
+  500  help history
+  501  history > history.txt
