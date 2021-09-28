@@ -1,0 +1,112 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: "Audiowide";
+    margin: 8px;
+}
+
+#header{
+    background-color: black;
+    color: white;
+    border-bottom: 5px solid red;
+}
+
+#header .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    /* border: 5px solid green; */
+    margin: 20px
+    
+}
+
+#branding{
+    /* font-family: "Audiowide"; */
+}
+
+span{
+    color: red;
+}
+
+#navigation ul{
+    display: flex;
+}
+
+#navigation li{
+    padding: 0 20px;
+    list-style: none;
+    /* font-family: "Audiowide" */
+}
+
+#main{
+    background-image:linear-gradient(to right,rgba(0, 0, 0, 0.8), rgba(0,0,0, 0.3)),
+    url("images/banner.jpg") ;
+    background-size:cover ;
+    height: 100vh; 
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items:center;
+}
+
+#main h1{
+   
+    font-size:50px;
+    text-align: center;
+    color:#4165A1;
+    padding: 10px;
+}
+
+#title p{
+    font-size: 30px;
+    text-align: center;
+    color: white;
+    padding: 10px;
+    text-shadow:  2px 2px 8px #FF0000;
+}
+
+#header a {
+    color: white;
+    text-decoration: none;
+}
+
+#about, #contact{
+    background-color: black;
+    padding: 20px;
+}
+
+#about h2, #contact h2{
+    color: red;
+    padding: 10px;
+    text-align: center;
+}
+
+#about p, #contact p {
+    color: white;
+}
+
+#footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 350px;
+}
+
+#linkedin{
+    width: 45px;
+  
+
+}
+
+#footer p{
+    color: white;
+    font-size:24px
+}
+
+
+
+
