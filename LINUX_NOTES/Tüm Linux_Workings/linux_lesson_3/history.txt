@@ -1,0 +1,409 @@
+    1  ls -al
+    2  pwd
+    3  ls /mnt/
+    4  cd /mnt/
+    5  ls -al
+    6  suda apt-get install git
+    7  sudo apt-get install git
+    8  $ sudo apt-get install git
+    9  git --version
+   10  git config --global user.name"adminking"
+   11  pwd
+   12  explorer.exe .
+   13  pwd
+   14  cd mnt/
+   15  cd /
+   16  cd mnt/
+   17  ls
+   18  pwd
+   19  exit
+   20  pwd
+   21  ls
+   22  ls -l
+   23  ls -a
+   24  ls -al
+   25  pwd
+   26  cd landscape/
+   27  cd ..
+   28  cd /
+   29  ls
+   30  pwd
+   31  cd -
+   32  cd /
+   33  ls
+   34  cd ~/adminking
+   35  cd
+   36  cd 
+   37  mkdir Linux_Lesson
+   38  explorer.exe .
+   39  rmdir Linux_Lesson/
+   40  touch yeni_dosya2
+   41  rm yeni_dosya2
+   42  touch newfile1
+   43  cp newfile1 git-projects/
+   44  pwd
+   45  mkdir linux_lesson
+   46  cd linux_lesson/
+   47  mkdir folder1 folder2
+   48  touch folder1/newfile
+   49  cp folder1/newfile folder2
+   50  cd folder1
+   51  cp nexfile ../folder2/newfile_copy
+   52  cp newfile ../folder2/newfile_copy
+   53  pwd
+   54  mv newfile
+   55  mv newfile_copy ../folder2/newfile_moved
+   56  pwd
+   57  mv yenidosya.txt ../folder2
+   58  cd ../folder2
+   59  ls
+   60  mv yenidosya.txt yenidosya_removed
+   61  mv yenidosya.txt yenidosya_renamed.txt
+   62  pwd
+   63  cat yenidosya.txt
+   64  echo test
+   65  echo "hello world"
+   66  echo "stephen" > yenidosya.txt
+   67  echo "steplen" >> yenidosya.txt
+   68  touch file{1..}
+   69  touch file1 file{1..10}
+   70  touch asd{1..5}
+   71  ls *3
+   72  touch *e*
+   73  ls *3*
+   74  ls *e*
+   75  touch asdf{1..20}
+   76  ls *f*2
+   77  ls *f*2*
+   78  ls f?le*
+   79  ls ?????
+   80  cd
+   81  mkdir clarusway
+   82  ls
+   83  pwd
+   84  cd clarusway
+   85  mkdir lessons materials
+   86  ls
+   87  touch lessons/linux.txt
+   88  cat linux.txt
+   89  cat lessons/linux.txt
+   90  echo "I love linux" > lessons/linux.txt
+   91  echo "I can create a website" > lessons/html.txt
+   92  cd materials
+   93  echo "pre-class" > lms.txt
+   94  touch try-it.txt
+   95  cat try-it.txt
+   96  echo "post-class" > try-it.txt
+   97  cat try-it.txt
+   98  ls -al
+   99  pwd
+  100  cp ../lessons/linux.txt .
+  101  my linux.txt linux_renamed.txt
+  102  mv linux.txt linux_renamed.txt
+  103  pwd
+  104  cd masaüstü
+  105  explorer.exe .
+  106  exkplorer.exe .
+  107  explorer.exe .
+  108  pwd
+  109  cd /
+  110  cd mnt/
+  111  ls
+  112  cd c/home/
+  113  cd home/
+  114  pwd
+  115  explorer.exe .
+  116  ls
+  117  cd /
+  118  ls
+  119  pwd
+  120  ls
+  121  ls -l
+  122  ls -a
+  123  ls -al
+  124  pwd
+  125  explorer.exe .
+  126  pwd
+  127  cd git_projects
+  128  cd adminking
+  129  cd git_projects/
+  130  cd adminking/
+  131  cd home/
+  132  cd adminking/
+  133  cd home/
+  134  pwd
+  135  cd home/adminking/
+  136  cd adminking/
+  137  pwd
+  138  cd home/
+  139  cd adminking/
+  140  cd adminking /
+  141  cd adminking/
+  142  pwd
+  143  cd working/
+  144  pwd
+  145  cd ..
+  146  pwd
+  147  cd /
+  148  ls
+  149  pwd
+  150  cd -
+  151  cd /
+  152  pwd
+  153  ls
+  154  cd 
+  155  mkdir Linux_Lesson
+  156  rmdir yeni_dosya/
+  157  touch yeni_dosya2
+  158  rm yeni_dosya2
+  159  touch newfile2
+  160  cp newfile2 working/
+  161  pwd
+  162  mkdir linux_lesson
+  163  cd linux_lesson
+  164  mkdir folder1 folder2
+  165  touch folder1/newfile
+  166  cp folder1/newfile folder2/newfile1
+  167  cd folder1
+  168  cp newfile ../folder2/newfile_copy
+  169  mv newfile ../folder2/newfile_moved
+  170  pwd
+  171  touch yenidosya
+  172  mv yenidosya ../folder2/yenidosya_moved
+  173  cd ../folder2
+  174  ls
+  175  mv yenidosya_moved yenidosya_moved_yeni
+  176  ls
+  177  pwd
+  178  cat newfile1
+  179  echo test
+  180  echo "merhaba dünya"
+  181  echo "zalim dünya" >> newfile1
+  182  cd ../folder1
+  183  touch file1 file{1..10}
+  184  touch asd{1..5}
+  185  ls *3
+  186  ls *e*
+  187  touch asdf{1..20}
+  188  ls *f*2
+  189  ls *f*2*
+  190  ls ?????
+  191  cd
+  192  mkdir clarusway
+  193  ls
+  194  cd clarusway/
+  195  mkdir lessons materials
+  196  ls
+  197  touch lessons/linux.txt
+  198  cat lessons/linux.txt
+  199  echo "I love linux" >> linux.txt
+  200  echo "I can create a website" > lessons/html.txt
+  201  cd materials
+  202  echo "pre-class" > lms.txt
+  203  touch try-it.txt
+  204  cat try-it.txt
+  205  echo "post-class" > try-it.txt
+  206  cat try-it.txt
+  207  ls -al
+  208  pwd
+  209  cp ../lessons/linux_txt .
+  210  cp ../lessons/linux.txt .
+  211  pwd
+  212  ls
+  213  ls -a
+  214  ls -l
+  215  ls -al
+  216  mkdir dirl
+  217  ls
+  218  mkdir dir2
+  219  cd dir1
+  220  mkdir dir1
+  221  cd dir1
+  222  pwd
+  223  cd ..
+  224  cd /
+  225  ls
+  226  cd
+  227  cd ~
+  228  cd ~/dir2
+  229  cd ..
+  230  cd dir1
+  231  touch file1.txt
+  232  ls
+  233  cat file1.txt
+  234  explorer.exe .
+  235  mv file1.txt file2.txt
+  236  ls
+  237  cat file2.txt
+  238  cp file2.txt file1.txt
+  239  ls
+  240  cat file1.txt
+  241  ls
+  242  cp file1.txt ~/dir2/file1.txt
+  243  cd ..
+  244  cd dir2
+  245  ls
+  246  rm file1.txt
+  247  ls
+  248  cd ..
+  249  rmdir dir2
+  250  ls
+  251  mkdir dir2
+  252  cd dir2
+  253  touch file1.txt
+  254  cd ..
+  255  rmdir dir2
+  256  lis
+  257  ls
+  258  cd dir2
+  259  ls
+  260  cd ..
+  261  rm -R dir2
+  262  ls
+  263  history
+  264  pwd
+  265  ls
+  266  cd newfile1
+  267  cd dir1
+  268  ls
+  269  nano file1.txt
+  270  pwd
+  271  explorer.exe .
+  272  mkdir clarusway
+  273  ls -l
+  274  cd clarusway
+  275  touch test.txt
+  276  echo "Hello">> test.txt
+  277  echo "My name is Robert">> test.txt
+  278  cat test.txt
+  279  echo "hello, this is second text file" >> test1.txt
+  280  cat test1.txt
+  281  cat test.txt test1.txt
+  282  cd ..
+  283  mkdir europe
+  284  cd europe
+  285  touch lab.txt lab1.txt
+  286  echo "This is the first line of the second directory">> lab.txt
+  287  cat lab.txt
+  288  cp lab.txt newlab.txt
+  289  ls -l
+  290  cat newlab.txt
+  291  ls *.txt
+  292  ls ?n*txt
+  293  ls *n*txt
+  294  cp ../clarusway/newlab.txt
+  295  pwd
+  296  explorer.exe .
+  297  cp ../clarusway/newlab.txt .
+  298  cd ..
+  299  cd clarusway
+  300  cd ..
+  301  cd europe
+  302  ls -l
+  303  cp newlab.txt ../clarusway
+  304  cd ../clarusway
+  305  cp m*{6..10}*.txt ../europe
+  306  mv m*{1..3}*.txt ../europe
+  307  ls -l
+  308  cd ../europe
+  309  mv newlab.txt/linuxlab.txt
+  310  mv newlab.txt linuxlab.txt
+  311  ls -l
+  312  ls -al
+  313  rm linuxlab.txt
+  314  cd ..
+  315  mkdir america
+  316  rmdir america
+  317  rmdir clarusway
+  318  rm -r clarusway
+  319  cd europe
+  320  ls -l
+  321  touch linuxworkshop.txt
+  322  ls -l
+  323  mv linuxworkshop.txt .linuxworkshop.txt
+  324  ls -l
+  325  ls -al
+  326  mv .linuxworkshop.txt linuxworkshop.txt
+  327  ls -l
+  328  clear
+  329  pwd
+  330  explorer.exe .
+  331  mkdir linux_lesson_3
+  332  cd linux_lesson_3
+  333  touch new_file1.txt
+  334  ls
+  335  echo "hello world" 
+  336  echo "hello world" > new_file_2.txt
+  337  ls
+  338  echo > new_file_3.txt
+  339  ls
+  340  echo > new_file4.txt
+  341  > new_file5.txt
+  342  > new_file6.txt
+  343  rm new_file6.txt
+  344  ls
+  345  mkdir new_folder
+  346  ls
+  347  mv new_file_2.txt new_file2.txt
+  348  mv new_file_3.txt new_file3.txt
+  349  touch new_folder/yeni_dosya.mp4
+  350  ls new_folder
+  351  rmdir new_folder/
+  352  rm new_folder/
+  353  rm -r new_folder/
+  354  ls
+  355  mkdir new_folder
+  356  cp newfile5.txt new_folder/
+  357  ls new_folder/
+  358  cp new_file5.txt new_folder/
+  359  ls new_folder
+  360  cd ..
+  361  pwd
+  362  cp linux_lesson_3/new_file4.txt linux_lesson_3/new_folder/new_file4_copy.jpeg
+  363  ls linux_lesson_3/new_folder
+  364  cd linux_lesson_3/
+  365  ls
+  366  mv new_file2.txt new_folder/
+  367  ls new_folder/
+  368  ls
+  369  mv new_folder/new_file2.txt new_folder/.new_file2_hidden.txt
+  370  ls new_folder/
+  371  ls -a new_folder/
+  372  ls
+  373  echo "clarusway" >> new_file4.txt
+  374  cat new_file4.txt
+  375  echo "linux_lesson" > new_file4.txt
+  376  cat new_file4.txt
+  377  cat 
+  378  cat new_file4.txt 
+  379  cat >> new_file4.txt 
+  380  cat 
+  381  cat > istiklal.txt
+  382  head istiklal.txt
+  383  tail istiklal.txt 
+  384  head -3 istiklal.txt 
+  385  head -n 3 istiklal.txt 
+  386  tail -4 istiklal.txt 
+  387  tail -12 istiklal.txt 
+  388  mkdir folder2
+  389  cd folder2/
+  390  touch {a..d}{1..20}.txt
+  391  ls
+  392  rm *{1..9}
+  393  touch 
+  394  touch {a..c}{1..20}{x..z}
+  395  ls
+  396  ls a*x
+  397  ls *a*1
+  398  ls *a*1*
+  399  ls *a?1*
+  400  ls
+  401  cd ..
+  402  pwd
+  403  ls
+  404  rm -rf folder2/
+  405  ls
+  406  mv new_file5.txt .new_file5.txt
+  407  ls
+  408  ls -a
+  409  history > history.txt
